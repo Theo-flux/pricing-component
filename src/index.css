@@ -1,13 +1,38 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+  /* ### Primary */
+  --soft-cyan: #a5f3eb; /* (Full Slider Bar) */
+  --strong-cyan: hsl(174, 86%, 45%); /* (Full Slider Bar) */
+  --light-grayish-red: hsl(14, 92%, 95%); /* (Discount Background) */
+  --light-red: hsl(15, 100%, 70%); /* (Discount Text) */
+  --pale-blue: hsl(226, 100%, 87%); /* (CTA Text) */
+
+  /* ### Neutral */
+  --white: hsl (0, 0%, 100%); /* (Pricing Component Background) */
+  --very-pale-blue: #fafbff; /* (Main Background) */
+  --light-grayish-blue1: hsl(224, 65%, 95%); /* (Empty Slider Bar) */
+  --light-grayish-blue: #cdd7ee; /* (Toggle Background) */
+  --grayish-blue: #858fad; /* (Text) */
+  --blue: #293356; /* Button */
+  --off-white: #fbfcfe; /* Background Off White */
+}
+
+html, body {
+  font-size: 0.9375rem;
+}
+
+body {
+  margin: 0;
+  font-family: 'Manrope', sans-serif;
+  background-image: url(images/bg-pattern.svg);
+  height: 50vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }

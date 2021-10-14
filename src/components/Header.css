@@ -1,0 +1,31 @@
+.header {
+  position: relative;
+  text-align: center;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  /* border: 1px solid magenta; */
+}
+
+.caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 100%;
+  /* border: 1px solid magenta; */
+}
+
+.caption h1 {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--blue) ;
+}
+
+.caption p {
+  color: var(--grayish-blue);
+  font-weight: 600;
+  margin-top: .5em;
+  width: 60%;
+  margin: 0 auto;
+  /* border: 1px solid magenta; */
+}

@@ -1,0 +1,35 @@
+.bill {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: .5em;
+  /* border: 1px solid magenta; */
+  /* width: 50%; */
+}
+
+.bill h1{
+  color: var(--blue);
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.bill small {
+  font-weight: 600;
+  color: var(--grayish-blue);
+}
+
+
+@media screen and  (min-width: 590px) {
+  .bill {
+    position: absolute;
+    top: 10px;
+    left: 62%;
+    margin-top: 1em;
+    /* border: 1px solid magenta; */
+  }
+
+  .bill h1,
+  .bill small {
+    text-align: right;
+  }
+}
